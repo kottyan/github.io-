@@ -54,8 +54,12 @@ a:hover {
   font-size: 30px;
 }
 
-#PROFILE, #SKILL, #PRODUCT, #BLOG, #OTHERS {
+#PROFILE, #SKILL {
   margin-top:-100px;
   padding-top: 100px;
+  font-size: 30px;
+}
+
+#PRODUCT, #BLOG, #OTHERS {
   font-size: 30px;
 }
