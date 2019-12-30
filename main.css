@@ -1,7 +1,8 @@
-body > .container {
-padding: 60px 15px 0;
+#container {
+  visibility: hidden;
 }
-.container .text-muted {
+
+.text-muted {
 margin: 20px 0;
 }
 
@@ -62,4 +63,48 @@ a:hover {
 
 #PRODUCT, #BLOG, #OTHERS {
   font-size: 30px;
+}
+
+.yellow {
+  color: rgb(226, 215, 55);
+}
+
+.pink {
+  color: rgb(199, 38, 214);
+}
+
+.orange {
+  color: rgb(214, 79, 38);
+}
+
+.green {
+  color: rgb(46, 212, 129);
+}
+
+.pureblue {
+  color: rgb(38, 188, 214);
+}
+
+.navy {
+  color: rgb(10, 15, 87);
+}
+
+.black {
+  color: rgb(57, 60, 68);
+}
+
+.red-orange {
+  color: rgb(201, 94, 24);
+}
+
+.blue {
+  color: rgb(11, 43, 224);
+}
+
+.dark-dreen {
+  color: rgb(52, 71, 39);
+}
+
+.gray {
+  color: #6c757d;
 }
