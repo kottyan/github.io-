@@ -1,16 +1,13 @@
-(function() {
-}());
-
-window.onload = setInitalPage();
-
-function setInitalPage() {
+const setInitalPage = () => {
   const container = document.getElementById('container');
   const thisMonth = document.getElementById('thisMonth');
   const toDay = new Date();
-  thisMonth.innerText = String(toDay.getFullYear()) + '/' + String(toDay.getMonth() + 1);
+  thisMonth.innerText = String(toDay.getFullYear()) + ' / ' + String(toDay.getMonth() + 1);
     setTimeout(() => {
       container.style.visibility = "visible";
       window.scrollTo(0,0);
-    },1500);
+    },1000);
 }
+
+window.onload = setInitalPage();
 

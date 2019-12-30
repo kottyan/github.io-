@@ -1,3 +1,7 @@
+header {
+  font-family: 'Abril Fatface', cursive;
+}
+
 #container {
   visibility: hidden;
 }
@@ -26,6 +30,7 @@ a:hover {
 
 .navbar-brand-expand {
   margin-left: left;
+  font-size: 30px;
 }
 
 .navbar-toggler-expand {
@@ -55,14 +60,20 @@ a:hover {
   font-size: 30px;
 }
 
+.text-expand {
+  font-family: 'Kulim Park', sans-serif;
+}
+
 #PROFILE, #SKILL {
-  margin-top:-100px;
-  padding-top: 100px;
+  margin-top:-115px;
+  padding-top: 115px;
   font-size: 30px;
+  font-family: 'Abril Fatface', cursive;
 }
 
 #PRODUCT, #BLOG, #OTHERS {
   font-size: 30px;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .yellow {
