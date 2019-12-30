@@ -1,9 +1,4 @@
-(function() {
-}());
-
-window.onload = setInitalPage();
-
-function setInitalPage() {
+let setInitalPage = () => {
   const container = document.getElementById('container');
   const thisMonth = document.getElementById('thisMonth');
   const toDay = new Date();
@@ -11,6 +6,8 @@ function setInitalPage() {
     setTimeout(() => {
       container.style.visibility = "visible";
       window.scrollTo(0,0);
-    },1500);
+    },1000);
 }
+
+window.onload = setInitalPage();
 
