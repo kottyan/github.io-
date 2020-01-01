@@ -35,6 +35,8 @@ a:hover {
 
 .navbar-toggler-expand {
   float:right;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .navbar-expand-mv {
@@ -65,10 +67,10 @@ a:hover {
 }
 
 #PROFILE, #SKILL {
-  margin-top:-115px;
-  padding-top: 115px;
   font-size: 30px;
   font-family: 'Abril Fatface', cursive;
+  margin-top:-115px;
+  padding-top: 115px;
 }
 
 #PRODUCT, #BLOG, #OTHERS {
