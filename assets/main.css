@@ -55,6 +55,9 @@ a:hover {
 .card-style {
   width: 80%;
   margin: auto;
+}
+
+.border-none {
   border-style: none;
 }
 
@@ -66,14 +69,7 @@ a:hover {
   font-family: 'Kulim Park', sans-serif;
 }
 
-#PROFILE, #SKILL {
-  font-size: 30px;
-  font-family: 'Abril Fatface', cursive;
-  margin-top:-115px;
-  padding-top: 115px;
-}
-
-#PRODUCT, #BLOG, #OTHERS {
+h5 {
   font-size: 30px;
   font-family: 'Abril Fatface', cursive;
 }

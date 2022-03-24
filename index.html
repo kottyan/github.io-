@@ -10,13 +10,18 @@
 <!-- bootstrap -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Kulim+Park:600&display=swap" rel="stylesheet">
-<link rel="shortcut icon" href="github-brand.png">
-<link rel="apple-touch-icon" href="github-brand-homeicon.png" sizes="180x180">
-<link rel="stylesheet" type="text/css" href="main.css">
+<!-- icon -->
+<link rel="shortcut icon" href="assets/icon/github-brand.png">
+<link rel="apple-touch-icon" href="assets/icon/github-brand-homeicon.png" sizes="180x180">
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="assets/main.css">
+<!-- FontAwsome Icon -->
+<link href="assets/fontawsome/css/all.css" rel="stylesheet">
+<!-- bootstrap -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/a3d78be8ce.js" crossorigin="anonymous"></script>
+
 <title>My Profile</title>
 </head>
 <body>
@@ -39,6 +44,9 @@
               <a class="nav-link" href="#PROFILE">PROFILE</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#WORKEXPERIENCE">WORK EXPERIENCE</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#SKILL">SKILL</a>
             </li>
             <li class="nav-item">
@@ -56,55 +64,186 @@
     </nav>
   </header>
   <div id="container">
-    <div class="card card-expand card-style">
+    <div class="card card-expand card-style border-none">
       <div class="card-body">
         <h5 id="PROFILE" class="card-title card-title-expand">PROFILE</h5>
-        <h6 class="card-subtitle mb-2 text-muted text-expand">Name</h6>
-        <p class="card-text text-expand">Miki Kotani</p>
-        <h6 class="card-subtitle mb-2 text-muted text-expand">Living Place / Birth Place</h6>
-        <p class="card-text text-expand">Tokyo / Hyogo</p>
-        <h6 class="card-subtitle mb-2 text-muted text-expand">Career</h6>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">名前</h6>
+        <p class="card-text text-expand">小谷 未来 (Miki Kotani)</p>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">住所 / 出身地</h6>
+        <p class="card-text text-expand">東京 / 兵庫</p>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">職務経歴概要</h6>
         <p class="card-text text-expand">
-          Sales Person<br>
-          <i class="fas fa-caret-right"></i> 2015 / 04 - 2017 / 07
+          エンジニア<br>
+          <i class="fas fa-caret-right"></i> 2018 / 11 - 現在
         </p>
         <p class="card-text text-expand">
-          HP Operator<br>
+          ホームページ運用<br>
           <i class="fas fa-caret-right"></i> 2017 / 08 - 2018 / 10
         </p>
         <p class="card-text text-expand">
-          Engineer<br>
-          <i class="fas fa-caret-right"></i> 2018 / 11 - <span id="thisMonth"></span>
+          アパレル販売員<br>
+          <i class="fas fa-caret-right"></i> 2015 / 04 - 2017 / 07
         </p>
       </div>
     </div>
-    <div class="card card-style">
+    <div class="card card-style border-none">
+      <div class="card-body">
+        <h5 id="WORKEXPERIENCE" class="card-title">WORK EXPERIENCE</h5>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">2021/8 - 現在</h6>
+        <div class="card">
+          <div class="card-body">
+            <p class="font-weight-bold">エンタメ業界のシステム開発、運用改善</p>
+            <ul>
+              <li>
+                ライブ会場の物販受注管理システムのフロント開発を設計〜実装まで1人で担当
+              </li>
+              <li>
+                既存CMSサイトをJamstack構成へリプレイスするにあたり、技術調査〜プロトタイプ作成を担当中
+              </li>
+            </ul>
+            <br>
+            使用技術：Nuxt.js, Next.js, React, Vuetify, Material UI, Figma, AWS Amplify
+          </div>
+        </div>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">2020/12 - 現在</h6>
+        <div class="card">
+          <div class="card-body">
+            <p class="font-weight-bold">医療支援システムの開発(ベンチャー企業のサポート)</p>
+            <ul>
+              <li>
+                要件定義〜仕様検討〜設計〜実装まで幅広く担当
+              </li>
+              <li>
+                UI案もFigmaを使って作成
+              </li>
+              <li>
+                週1で他のメンバーとmeetingを実施し、仕様検討や課題解決などを図る
+              </li>
+            </ul>
+            使用技術：Nuxt.js, Typescript, Vuetify, firebase, Figma
+          </div>
+        </div>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">2020/11 - 2021/7</h6>
+        <div class="card">
+          <div class="card-body">
+            <p class="font-weight-bold">
+              生命保険WEBサイト・管理画面の開発
+            </p>
+            <ul>
+              <li>
+                ウォーターフォール開発
+              </li>
+              <li>
+                BFFアーキテクチャを採用
+              </li>
+              <li>
+                管理画面のフロント（Vue.js, Laravel）開発を2名で担当
+              </li>
+            </ul>
+            使用技術：Vue.js, Laravel, Express, Typescript, Docker
+          </div>
+        </div>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">2020/2 - 2020/10</h6>
+        <div class="card">
+          <div class="card-body">
+            <p class="font-weight-bold">
+              某ブランドECサイトの開発
+            </p>
+            <ul>
+              <li>
+                ウォーターフォール開発
+              </li>
+              <li>
+                住所検索APIの取得、お問い合わせフォーム、トランザクションメール等の実装
+              </li>
+            </ul>
+            使用技術：JSController(Expressがベースの言語), JQuery, salesforce
+          </div>
+        </div>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">2018/11 - 2020/1</h6>
+        <div class="card">
+          <div class="card-body">
+            <p class="font-weight-bold">
+              生命保険WEBサイトの開発（リプレイス）、運用・保守
+            </p>
+            <ul>
+              <li>
+                アジャイル開発
+              </li>
+              <li>
+                保険料シミュレーション機能のプロトタイプ実装
+              </li>
+              <li>
+                コンポーネントと単体テストを実装
+              </li>
+              <li>
+                既存システムの改修
+              </li>
+            </ul>
+            使用技術：Vue.js, Laravel, Docker
+          </div>
+        </div>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">2017/8 - 2018/10</h6>
+        <div class="card">
+          <div class="card-body">
+            <p class="font-weight-bold">ボートレースHPの運用</p>
+            <ul>
+              <li>
+                レース結果や記事の更新、メルマガの作成・配信
+              </li>
+              <li>
+                クライアントとの調整
+              </li>
+            </ul>
+            使用技術：HTML,CSS, Photoshop
+          </div>
+        </div>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">2015/4 - 2017/7</h6>
+        <div class="card">
+          <div class="card-body">
+            <p class="font-weight-bold">某セレクトショップ販売員</p>
+          </div>
+      </div>
+    </div>
+    <div class="card border-none">
       <div class="card-body">
         <h5 id="SKILL" class="card-title">SKILL</h5>
-        <h6 class="card-subtitle mb-2 text-muted text-expand">Languages</h6>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">Language</h6>
           <p class="card-text text-expand">
-            <i class="fab fa-js yellow"></i>
-            javascript - 
-            <i class="fab fa-php pink"></i>
-            PHP - 
-            <i class="fab fa-laravel orange"></i>
-            Laravel - 
+            Nuxt.js / 
+            Next.js / 
             <i class="fab fa-vuejs green"></i>
-            Vue.js - 
+            Vue.js / 
+            <i class="fab fa-react green"></i>
+            React / 
+            <i class="fab fa-js yellow"></i>
+            javascript / 
+            <i class="fab fa-php pink"></i>
+            PHP / 
+            <i class="fab fa-laravel orange"></i>
+            Laravel / 
             <i class="fab fa-google blue"></i>
             Google Apps Script
           </p>
-        <h6 class="card-subtitle mb-2 text-muted text-expand">Databases</h6>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">UI Library</h6>
+          <p class="card-text text-expand">
+            Vuetify(Vue) / 
+            Material UI(React)
+          </p>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">Testing Framework</h6>
+          <p class="card-text text-expand">
+            Jest / PHPUnit / WebdriverIO(E2E Test)
+          </p>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">Database</h6>
           <p class="card-text text-expand">
             <i class="fas fa-database pureblue"></i>
             MySQL
           </p>
-        <h6 class="card-subtitle mb-2 text-muted text-expand">Cloud</h6>
-          <p class="card-text text-expand">
-            firebase
-          </p>
         <h6 class="card-subtitle mb-2 text-muted text-expand">Others</h6>
           <p class="card-text text-expand">
+            Firebase - 
+            AWS Amplify - 
+            microCMS - 
             <i class="fab fa-docker navy"></i>
             Docker - 
             <i class="fab fa-github black"></i>
@@ -112,19 +251,13 @@
             <i class="fab fa-gitlab red-orange"></i>
             GitLab - 
             <i class="fab fa-sourcetree blue"></i>
-            SourceTree - 
-            <i class="fas fa-book dark-dreen"></i>
-            gitbook - 
-            Qiita
+            SourceTree
           </p>
       </div>
     </div>
-    <div class="card card-style">
+    <div class="card border-none">
       <div class="card-body">
         <h5 id="PRODUCT" class="card-title card-title-expand">PRODUCT</h5>
-        <h6 class="card-subtitle mb-2 text-muted text-expand">TODO Application</h6>
-          <a class="card-link text-expand">Comming Soon・・・</a>
-          <p class="card-text text-expand">Vue.js / firebase</p>
         <h6 class="card-subtitle mb-2 text-muted text-expand">LINE Bot</h6>
           <a href="https://github.com/kottyan/daily-english-line-bot"
              class="card-link"
@@ -139,7 +272,7 @@
           <p class="card-text text-expand">Google Apps Script</p>
       </div>
     </div>
-    <div class="card card-style">
+    <div class="card border-none">
       <div class="card-body">
         <h5 id="BLOG" class="card-title card-title-expand">BLOG</h5>
         <a href="https://qiita.com/kottyan"
@@ -149,10 +282,10 @@
         </a>
       </div>
     </div>
-    <div class="card card-style">
+    <div class="card border-none">
       <div class="card-body">
         <h5 id="OTHERS" class="card-title card-title-expand">OTHERS</h5>
-        <h6 class="card-subtitle mb-2 text-muted text-expand">Authored Teaching Materials for Beginner Engineer</h6>
+        <h6 class="card-subtitle mb-2 text-muted text-expand">初心者向けプログラミング教材の執筆</h6>
         <p class="card-text text-expand">Vue.js/Vuex Trello App</p>
         <a href="https://www.techpit.jp/p/vue-js-vuex-trello"
            class="card-link"
